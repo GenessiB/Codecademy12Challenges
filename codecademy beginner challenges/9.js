@@ -7,7 +7,7 @@
 
 function divisibleByTen(number) {
   if (number % 10 === 0) {
-    return true;
+   return true
   }
   return false;
 }
