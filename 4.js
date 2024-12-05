@@ -9,18 +9,16 @@ const array2 = [-1, 2, -3, 4, -5];
 const array3 = [1.5, 2.5, 3.5, 4.5, 5.5];
 const array4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-
 function sumOfArray(array) {
-    let sum = 0;
+  let sum = 0;
   for (let i = 0; i < array.length; i++) {
     sum += array[i];
   }
-  console.log(sum);
+  return sum;
 }
 
-// sumOfArray(array1);
+
+console.log(sumOfArray(array1));
 // sumOfArray(array2);
 //  sumOfArray(array3);
 //  sumOfArray(array4);
-
-
